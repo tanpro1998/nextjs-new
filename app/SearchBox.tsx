@@ -28,7 +28,7 @@ const SearchBox = () => {
       <button
         type="submit"
         disabled={!input}
-        className="text-orange-400 disabled:text-gray-500"
+        className="text-orange-500 disabled:text-gray-500"
       >
         Search
       </button>
