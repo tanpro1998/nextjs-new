@@ -1,7 +1,7 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import React, { useState, FormEvent } from "react";
+import { useRouter } from "next/navigation";
 
 const SearchBox = () => {
   const [input, setInput] = useState("");
